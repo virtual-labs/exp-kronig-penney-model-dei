@@ -2,35 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How does increasing the potential well depth affect the energy bands in the Kronig-Penney model?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It decreases the band gap width",
+        "b": "It increases the number of energy bands",
+        "c": "It increases the band gap width",
+        "d": "It decreases the number of energy bands"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Explanation 1  <a href='https://www.geeksforgeeks.org/the-kronig-penney-model/'>here</a>"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "According to Bloch's Theorem, the wavefunction in a periodic potential can be expressed as:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A linear function",
+        "b": "A sinusoidal function",
+        "c": "A plane wave multiplied by a periodic function",
+        "d": "A quadratic function"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Explanation 1  <a href='https://www.sciencedirect.com/topics/engineering/blochs-theorem#:~:text=Bloch%20States&text=are%20of%20the%20form%20%CE%A8,textbooks%20on%20solid%20state%20physics.'>here</a>"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
