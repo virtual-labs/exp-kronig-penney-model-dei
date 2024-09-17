@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin-right: 10px;
+}
+
+canvas {
+    border: 1px solid #ffffff;
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+}
