@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kronig-Penney Model Simulation</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kronig-Penney Model Simulation</h1>
+        <div class="controls">
+            <label for="potentialDepth">Potential Depth (V₀):</label>
+            <input type="range" id="potentialDepth" min="1" max="100" value="50">
+            <span id="potentialDepthValue">50</span>
+            
+            <label for="latticeSpacing">Lattice Spacing (a):</label>
+            <input type="range" id="latticeSpacing" min="10" max="200" value="50">
+            <span id="latticeSpacingValue">50</span>
+        </div>
+        <canvas id="simulationCanvas"></canvas>
+    </div>
+    <script src="js/main.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>

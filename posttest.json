@@ -1,0 +1,75 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. How does increasing the potential well depth affect the energy bands in the Kronig-Penney model?",
+      "answers": {
+        "a": "It decreases the band gap width",
+        "b": "It increases the number of energy bands",
+        "c": "It increases the band gap width",
+        "d": "It decreases the number of energy bands"
+      },
+      "explanations": {
+        "c": "Explanation 1  <a href='https://www.geeksforgeeks.org/the-kronig-penney-model/'>here</a>"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. According to Bloch's Theorem, the wavefunction in a periodic potential can be expressed as:",
+      "answers": {
+        "a": "A linear function",
+        "b": "A sinusoidal function",
+        "c": "A plane wave multiplied by a periodic function",
+        "d": "A quadratic function"
+      },
+      "explanations": {
+        "c": "Explanation 1  <a href='https://www.sciencedirect.com/topics/engineering/blochs-theorem'>here</a>"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the main physical reason why energy bands form in the Kronig-Penney model?",
+      "answers": {
+        "a": "Electrons move randomly inside the crystal",
+        "b": "The periodic potential creates constructive and destructive interference of electron waves",
+        "c": "Electrons lose energy while moving in a lattice",
+        "d": "Atoms compress the electrons into fixed energy levels"
+      },
+      "explanations": {
+        "b": "Correct. Interference of electron wavefunctions in a periodic lattice leads to allowed and forbidden energy regions."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What happens to the allowed energy band width when the spacing between potential barriers increases?",
+      "answers": {
+        "a": "The allowed bands become narrower",
+        "b": "The allowed bands become wider",
+        "c": "The allowed bands disappear",
+        "d": "The width remains completely unchanged"
+      },
+      "explanations": {
+        "a": "Correct. Increasing spacing reduces wavefunction overlap, narrowing the allowed energy bands."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. In the Kronig-Penney model, what does the forbidden energy region (band gap) physically represent?",
+      "answers": {
+        "a": "Energy values where electrons can freely move",
+        "b": "Energy levels where electrons cannot exist",
+        "c": "Energy levels occupied only by photons",
+        "d": "Energy states with maximum stability"
+      },
+      "explanations": {
+        "b": "Correct. Band gaps are energies at which no electron solutions exist in the periodic potential."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

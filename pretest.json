@@ -1,0 +1,75 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the primary purpose of the Kronig-Penney model?",
+      "answers": {
+        "a": "To calculate the mass of an electron",
+        "b": "To simulate the behavior of photons",
+        "c": "To understand the formation of energy bands in crystals",
+        "d": "To study the gravitational effects on electrons"
+      },
+      "explanations": {
+        "c": "Explanation 1  <a href='https://pubs.aip.org/aapt/ajp/article-abstract/83/9/773/1056970/The-Kronig-Penney-model-extended-to-arbitrary?redirectedFrom=fulltext'>here</a>"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What do band gaps in the Kronig-Penney model represent?",
+      "answers": {
+        "a": "Regions where electrons can exist",
+        "b": "Regions where no electron states are allowed",
+        "c": "Regions with the highest electron density",
+        "d": "Regions of maximum potential energy"
+      },
+      "explanations": {
+        "b": "Explanation 1  <a href='https://en.wikipedia.org/wiki/Particle_in_a_one-dimensional_lattice#:~:text=Band%20gaps%20in%20the%20Kronig%E2%80%93Penney%20model,-The%20value%20of&text=Thus%2C%20the%20expression%20gives%20rise%20to%20the%20dispersion%20relation.&text=%2C%20that%20means%20there%20are%20certain,values%20constitute%20the%20band%20gap.'>here</a>"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. In the Kronig-Penney model, what causes the formation of allowed and forbidden energy bands?",
+      "answers": {
+        "a": "Random arrangement of atoms",
+        "b": "Periodic potential experienced by electrons",
+        "c": "High temperature of the crystal",
+        "d": "Electric current passing through the metal"
+      },
+      "explanations": {
+        "b": "Correct. The periodic potential leads to standing waves for electrons, creating allowed and forbidden bands."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What happens to the band gap if the potential barrier height is increased in the Kronig-Penney model?",
+      "answers": {
+        "a": "The band gap decreases",
+        "b": "The band gap becomes zero",
+        "c": "The band gap increases",
+        "d": "The band gap remains constant"
+      },
+      "explanations": {
+        "c": "Correct. Higher barriers increase electron confinement, widening the band gap."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which of the following best explains why metals conduct electricity according to the Kronig-Penney model?",
+      "answers": {
+        "a": "They have very large band gaps",
+        "b": "The valence band is completely filled",
+        "c": "The conduction band overlaps with the valence band",
+        "d": "Electrons have zero mass"
+      },
+      "explanations": {
+        "c": "Correct. Overlapping bands allow electrons to move freely, making metals good conductors."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
