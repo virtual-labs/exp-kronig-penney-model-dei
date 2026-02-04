@@ -1,21 +1,89 @@
-The Kronig-Penney model is a fundamental concept in solid-state physics that provides insight into the electronic structure of crystalline solids. It simplifies the complex interactions of electrons in a periodic potential, making it easier to understand how energy bands form in materials. The model uses a one-dimensional periodic potential to represent the lattice of a crystal, which leads to the formation of energy bands and band gaps—key concepts that explain the electrical properties of materials, such as conductors, semiconductors, and insulators.<br />
-The aim of this experiment is to explore the Kronig-Penney model by simulating the behavior of electrons in a periodic potential. Through this simulation, participants will visualize how energy bands and band gaps form, understand the relationship between the periodic potential and electronic structure, and investigate the impact of varying potential parameters on electron wavefunctions and energy levels.<br />
-## The Kronig-Penney Model<br />
-The Kronig-Penney model represents a one-dimensional crystal lattice as a series of rectangular potential wells, with each well corresponding to an atom in the lattice. The potential is periodic, meaning it repeats itself at regular intervals.<br />
-## Energy Bands and Gaps<br />
-When electrons move through this periodic potential, they are allowed to occupy specific energy levels known as energy bands. Between these bands are forbidden regions called band gaps, where no electron states exist.<br />
-## Key Equations:<br />
-1. ### Schrödinger's Equation:<br />
-Where ℏ is the reduced Planck constant, mmm is the electron mass, V(x) is the potential energy, ψ(x) is the wavefunction, and E is the energy.<br />
-![image1](images/image1.png)<br />
-2.	### Bloch's Theorem:<br />
-This theorem states that the wavefunction ψk(x) in a periodic potential can be written as a plane wave multiplied by a periodic function.<br />
-![image2](images/image2.png)<br />
-3. ### Dispersion Relation(for a simplified Kronig-Penney model):<br />
-Where k is the wavevector, d is the period of the potential, α and β are constants related to the potential height and the energy of the electron<br />
-![image3](images/image3.png)<br />
-Implications:<br />
-•	Conductors have overlapping energy bands, allowing electrons to move freely.<br />
-•	Insulators have wide band gaps, preventing electron flow.<br />
-•	Semiconductors have narrow band gaps, which can be crossed by thermal or optical excitation<br />
+# Theory - Kronig-Penney Model
 
+## Introduction
+The Kronig-Penney model is a fundamental concept in solid-state physics that explains the behavior of electrons in a crystalline solid. It simplifies the complex periodic potential of a crystal lattice into a one-dimensional array of rectangular potential wells. This model is crucial for understanding the formation of **energy bands** and **band gaps**, which determine whether a material is a conductor, semiconductor, or insulator.
+
+### Key Concepts
+1.  **Periodic Potential:** In a crystal, atoms are arranged in a regular pattern, creating a periodic potential $V(x) = V(x+a)$, where $a$ is the lattice constant.
+2.  **Schrödinger Equation:** The behavior of an electron in this potential is described by the time-independent Schrödinger equation:
+    $$ -\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + V(x)\psi = E\psi $$
+3.  **Bloch's Theorem:** The solution to the wave equation in a periodic potential is a plane wave modulated by a periodic function:
+    $$ \psi_k(x) = e^{ikx} u_k(x) $$
+
+## Formation of Band Gaps
+The mathematical solution to the Kronig-Penney model leads to a condition for allowed energy states:
+$$ \cos(ka) = \cos(\alpha a) + P \frac{\sin(\alpha a)}{\alpha a} $$
+Where $P$ is related to the potential barrier strength.
+
+*   When the right-hand side of the equation is between -1 and +1, wave-like solutions exist (**Allowed Bands**).
+*   When the value is outside this range, no solutions exist (**Forbidden Gaps** or **Band Gaps**).
+
+### Material Classification
+Materials are classified based on their band structure:
+
+<table>
+    <thead>
+        <tr style="background: linear-gradient(135deg, #667eea, #764ba2); color: white;">
+            <th style="padding: 12px; border: 1px solid #ddd;">Property</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Conductor</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Semiconductor</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Insulator</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Band Gap</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Zero or very small (Overlapping)</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Small (~1 eV)</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Large (> 3 eV)</td>
+        </tr>
+        <tr style="background-color: #f9f9f9;">
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Electron Flow</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Free movement</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Condition dependent (Temp/Doping)</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Restricted</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Example</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Copper, Aluminum</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Silicon, Germanium</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Diamond, Glass</td>
+        </tr>
+    </tbody>
+</table>
+
+## Effect of Parameters
+*   **Potential Depth ($V_0$):** increasing $V_0$ makes the barriers stronger, leading to wider band gaps.
+*   **Lattice Spacing ($a$):** Changing $a$ affects the width of the allowed bands.
+
+### Mathematical Parameters Table
+<table>
+    <thead>
+        <tr style="background: linear-gradient(135deg, #667eea, #764ba2); color: white;">
+            <th style="padding: 12px; border: 1px solid #ddd;">Symbol</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Quantity</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Unit</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">$V_0$</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Potential Depth</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">eV (Electron Volts)</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Height of the potential barrier</td>
+        </tr>
+        <tr style="background-color: #f9f9f9;">
+            <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">$a$</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Well Width</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Å (Angstroms)</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Width of the region where potential is zero</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">$b$</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Barrier Width</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Å (Angstroms)</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Width of the potential barrier region</td>
+        </tr>
+    </tbody>
+</table>
