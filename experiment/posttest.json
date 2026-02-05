@@ -1,52 +1,145 @@
-[
-    {
-        "question": "In the simulation, increasing the Potential Depth ($V_0$) caused the band gap to:",
-        "answers": {
-            "a": "Decrease",
-            "b": "Increase",
-            "c": "Remain unchanged",
-            "d": "Disappear completely"
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. In the simulation, when you increased the Potential Depth (V₀), what happened to the band gap?",
+            "answers": {
+                "a": "Band gap decreased",
+                "b": "Band gap increased",
+                "c": "Band gap remained unchanged",
+                "d": "Band gap disappeared completely"
+            },
+            "explanations": {
+                "b": "From the simulation, you observed that increasing V₀ strengthens the potential barriers, which leads to wider band gaps. This demonstrates why materials with stronger atomic potentials have larger band gaps."
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
         },
-        "correctAnswer": "b"
-    },
-    {
-        "question": " Which material type in the simulation showed the widest band gaps?",
-        "answers": {
-            "a": "Conductor",
-            "b": "Semiconductor",
-            "c": "Insulator",
-            "d": "Superconductor"
+        {
+            "question": "2. Which material type in the simulation showed the widest band gaps?",
+            "answers": {
+                "a": "Conductor",
+                "b": "Semiconductor",
+                "c": "Insulator",
+                "d": "Superconductor"
+            },
+            "explanations": {
+                "c": "The insulator preset in the simulation displays the widest band gaps (>3 eV), which prevents electron flow and makes the material non-conductive under normal conditions."
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
         },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "The 'Allowed Energy Bands' in the simulation are represented by which color?",
-        "answers": {
-            "a": "Green",
-            "b": "Red",
-            "c": "Blue",
-            "d": "Yellow"
+        {
+            "question": "3. The 'Allowed Energy Bands' in the simulation are represented by which color?",
+            "answers": {
+                "a": "Green",
+                "b": "Red",
+                "c": "Blue",
+                "d": "Yellow"
+            },
+            "explanations": {
+                "c": "In the simulation's visualization, blue color (#00b4ff) represents the allowed energy bands where electrons can exist."
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
         },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "According to the Kronig-Penney model, if the potential depth $V_0$ becomes zero (free electron model), the energy spectrum becomes:",
-        "answers": {
-            "a": "Discrete",
-            "b": "Continuous",
-            "c": "Empty",
-            "d": "Periodic"
+        {
+            "question": "4. When you selected the Conductor preset, what did you observe about the energy bands?",
+            "answers": {
+                "a": "Wide band gaps between all bands",
+                "b": "Overlapping bands with minimal or no gaps",
+                "c": "Only one energy band present",
+                "d": "All bands were forbidden"
+            },
+            "explanations": {
+                "b": "The conductor preset shows overlapping or very closely spaced energy bands with virtually no band gaps, allowing free electron movement and high electrical conductivity."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
         },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What is the physical significance of a 'Band Gap'?",
-        "answers": {
-            "a": "It is where electrons have maximum energy",
-            "b": "It is a region of forbidden energy levels",
-            "c": "It is where protons are located",
-            "d": "It represents the nucleus"
+        {
+            "question": "5. What happened to the wave functions when you adjusted the Well Width (a) parameter?",
+            "answers": {
+                "a": "Wave functions disappeared",
+                "b": "Wave functions changed their spatial distribution and wavelength",
+                "c": "Wave functions remained identical",
+                "d": "Wave functions became straight lines"
+            },
+            "explanations": {
+                "b": "Changing the well width 'a' affects the spatial distribution and wavelength of the wave functions, as the electron's allowed states depend on the lattice spacing."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
         },
-        "correctAnswer": "b"
-    }
-]
+        {
+            "question": "6. According to the simulation results, if V₀ becomes zero (free electron model), the energy spectrum becomes:",
+            "answers": {
+                "a": "Discrete with wide gaps",
+                "b": "Continuous with no band gaps",
+                "c": "Empty with no allowed states",
+                "d": "Periodic with alternating gaps"
+            },
+            "explanations": {
+                "b": "When V₀ = 0, there are no potential barriers, and the system behaves like a free electron model with a continuous energy spectrum and no band gaps."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "7. What is the physical significance of the 'Band Gap' you observed in the simulation?",
+            "answers": {
+                "a": "It is where electrons have maximum energy",
+                "b": "It is a region of forbidden energy levels where electrons cannot exist",
+                "c": "It is where protons are located",
+                "d": "It represents the nucleus of atoms"
+            },
+            "explanations": {
+                "b": "Band gaps are forbidden energy regions where no electron states can exist. This is crucial for determining electrical and optical properties of materials."
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "8. When you enabled the 'Band Gaps' display option, the forbidden regions were shown in:",
+            "answers": {
+                "a": "Blue shaded regions",
+                "b": "Green shaded regions",
+                "c": "Red shaded regions",
+                "d": "Yellow shaded regions"
+            },
+            "explanations": {
+                "c": "The simulation uses red shaded regions (rgba(255,107,107,0.3)) to highlight the forbidden band gaps where electrons cannot exist."
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "9. From the E-k Diagram view, what relationship did you observe between energy (E) and wave vector (k)?",
+            "answers": {
+                "a": "Linear relationship throughout",
+                "b": "Periodic relationship with allowed and forbidden regions",
+                "c": "Inverse relationship",
+                "d": "No relationship"
+            },
+            "explanations": {
+                "b": "The E-k diagram (dispersion relation) shows a periodic relationship with allowed energy bands and forbidden gaps, demonstrating the wave-like nature of electrons in periodic potentials."
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "10. Based on your observations, which parameter combination would create a semiconductor-like material?",
+            "answers": {
+                "a": "Very low V₀ (< 5 eV) with any well width",
+                "b": "Moderate V₀ (~10-20 eV) creating ~1 eV band gap",
+                "c": "Very high V₀ (> 80 eV) creating large band gaps",
+                "d": "Zero V₀ with maximum well width"
+            },
+            "explanations": {
+                "b": "Semiconductors are characterized by moderate band gaps around 1 eV, which requires moderate potential depths. This allows thermal or optical excitation of electrons across the gap."
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        }
+    ]
+}
