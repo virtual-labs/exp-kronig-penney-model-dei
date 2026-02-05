@@ -33,11 +33,11 @@
 
 Below are the screenshots from the Kronig-Penney model simulation:
 
-![fig.1 - Simulation Interface](../images/image4.png)
-**Figure 1:** Main simulation interface showing the control panel, visualization canvas, and info panel.
+![fig.1 - Simulation Interface](./images/image4.png)
+Figure 1: Main simulation interface showing the control panel, visualization canvas, and info panel.
 
-![fig.2 - Energy Band Visualization](../images/image5.png)
-**Figure 2:** Energy band structure and wave functions for different material types.
+![fig.2 - Energy Band Visualization](./images//image5.png)
+Figure 2: Energy band structure and wave functions for different material types.
 
 ## Observation Table
 
