@@ -13,6 +13,7 @@
 *   Select the **Custom** preset.
 *   **Vary Potential Depth (V<sub>0</sub>):** Use the slider to increase V<sub>0</sub>. Watch how the band gaps widen as the potential barrier increases.
 *   **Vary Well Width (<i>a</i>):** Adjust the well width and observe changes in the wave functions and energy levels.
+*   **Vary Barrier Width (<i>b</i>):** Adjust the barrier width slider. A wider barrier increases the effective confinement, which significantly widens the band gap even at the same V<sub>0</sub> and <i>a</i>.
 
 ### 4. Guided Learning
 *   Click on the **Guided** tab in the "Learning Mode" section.
@@ -36,12 +37,12 @@ Below are the screenshots from the Kronig-Penney model simulation:
 ![fig.1 - Simulation Interface](./images/image4.png)
 Figure 1: Main simulation interface showing the control panel, visualization canvas, and info panel.
 
-![fig.2 - Energy Band Visualization](./images//image5.png)
+![fig.2 - Energy Band Visualization](./images/image5.png)
 Figure 2: Energy band structure and wave functions for different material types.
 
 ## Observation Table
 
-Record your observations for different potential depths and widths below:
+Record your observations for different potential depths, well widths, and barrier widths below:
 
 <table>
     <thead>
@@ -49,6 +50,7 @@ Record your observations for different potential depths and widths below:
             <th style="padding: 12px; border: 1px solid #ddd;">S.No.</th>
             <th style="padding: 12px; border: 1px solid #ddd;">Potential Depth (V<sub>0</sub>) (eV)</th>
             <th style="padding: 12px; border: 1px solid #ddd;">Well Width (<i>a</i>) (Å)</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Barrier Width (<i>b</i>) (Å)</th>
             <th style="padding: 12px; border: 1px solid #ddd;">Observed Band Gap (eV)</th>
             <th style="padding: 12px; border: 1px solid #ddd;">Material Type</th>
         </tr>
@@ -58,35 +60,40 @@ Record your observations for different potential depths and widths below:
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">1</td>
             <td style="padding: 8px; border: 1px solid #ddd;">5</td>
             <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~0.1</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">10</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">~0.13</td>
             <td style="padding: 8px; border: 1px solid #ddd;">Conductor</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">2</td>
             <td style="padding: 8px; border: 1px solid #ddd;">15</td>
             <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~1.1</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">~0.75</td>
             <td style="padding: 8px; border: 1px solid #ddd;">Semiconductor</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">3</td>
             <td style="padding: 8px; border: 1px solid #ddd;">80</td>
             <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~5.5</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">~4.00</td>
             <td style="padding: 8px; border: 1px solid #ddd;">Insulator</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">4</td>
             <td style="padding: 8px; border: 1px solid #ddd;">50</td>
             <td style="padding: 8px; border: 1px solid #ddd;">20</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~3.2</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">35</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">~3.18</td>
             <td style="padding: 8px; border: 1px solid #ddd;">Insulator</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">5</td>
             <td style="padding: 8px; border: 1px solid #ddd;">20</td>
             <td style="padding: 8px; border: 1px solid #ddd;">40</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~1.5</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">20</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">~0.67</td>
             <td style="padding: 8px; border: 1px solid #ddd;">Semiconductor</td>
         </tr>
     </tbody>
