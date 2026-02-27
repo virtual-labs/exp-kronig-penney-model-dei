@@ -54,7 +54,7 @@ Materials are classified based on their band structure:
 *   **Potential Depth (V<sub>0</sub>):** increasing V<sub>0</sub> makes the barriers stronger, leading to wider band gaps.
 *   **Lattice Spacing (a):** Changing <i>a</i> affects the width of the allowed bands.
 
-### Mathematical Parameters Table
+### Mathematical Parameters
 <table>
     <thead>
         <tr style="background: linear-gradient(135deg, #667eea, #764ba2); color: white;">
