@@ -47,54 +47,54 @@ Record your observations for different potential depths, well widths, and barrie
 <table>
     <thead>
         <tr style="background: linear-gradient(135deg, #667eea, #764ba2); color: white;">
-            <th style="padding: 12px; border: 1px solid #ddd;">S.No.</th>
+            <th style="text-align:center; border: 1px solid #ddd;">S.No.</th>
             <th style="padding: 12px; border: 1px solid #ddd;">Potential Depth (V<sub>0</sub>) (eV)</th>
-            <th style="padding: 12px; border: 1px solid #ddd;">Well Width (<i>a</i>) (Å)</th>
-            <th style="padding: 12px; border: 1px solid #ddd;">Barrier Width (<i>b</i>) (Å)</th>
-            <th style="padding: 12px; border: 1px solid #ddd;">Observed Band Gap (eV)</th>
-            <th style="padding: 12px; border: 1px solid #ddd;">Material Type</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Well Width (<i>a</i>) (Å)</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Barrier Width (<i>b</i>) (Å)</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Observed Band Gap (eV)</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Material Type</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">1</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">5</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">10</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~0.13</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">Conductor</td>
+            <td style="align-items:center; border: 1px solid #ddd; text-align: center;">1</td>
+            <td style="text-align:center; border: 1px solid #ddd;">5</td>
+            <td style="text-align:center; border: 1px solid #ddd;">30</td>
+            <td style="text-align:center; border: 1px solid #ddd;">10</td>
+            <td style="text-align:center; border: 1px solid #ddd;">~0.13</td>
+            <td style="text-align:center; border: 1px solid #ddd;">Conductor</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">2</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">15</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~0.75</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">Semiconductor</td>
+            <td style="text-align:center; border: 1px solid #ddd;">15</td>
+            <td style="text-align:center; border: 1px solid #ddd;">30</td>
+            <td style="text-align:center; border: 1px solid #ddd;">30</td>
+            <td style="text-align:center; border: 1px solid #ddd;">~0.75</td>
+            <td style="text-align:center; border: 1px solid #ddd;">Semiconductor</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">3</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">80</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">30</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~4.00</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">Insulator</td>
+            <td style="text-align:center; border: 1px solid #ddd;">80</td>
+            <td style="text-align:center; border: 1px solid #ddd;">30</td>
+            <td style="text-align:center; border: 1px solid #ddd;">30</td>
+            <td style="text-align:center; border: 1px solid #ddd;">~4.00</td>
+            <td style="text-align:center; border: 1px solid #ddd;">Insulator</td>
         </tr>
         <tr>
-            <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">4</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">50</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">20</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">35</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~3.18</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">Insulator</td>
+            <td style="text-align:center; border: 1px solid #ddd; text-align: center;">4</td>
+            <td style="text-align:center; border: 1px solid #ddd;">50</td>
+            <td style="text-align:center; border: 1px solid #ddd;">20</td>
+            <td style="text-align:center; border: 1px solid #ddd;">35</td>
+            <td style="text-align:center; border: 1px solid #ddd;">~3.18</td>
+            <td style="text-align:center; border: 1px solid #ddd;">Insulator</td>
         </tr>
         <tr>
             <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">5</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">20</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">40</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">20</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">~0.67</td>
-            <td style="padding: 8px; border: 1px solid #ddd;">Semiconductor</td>
+            <td style="text-align:center; border: 1px solid #ddd;">20</td>
+            <td style="text-align:center; border: 1px solid #ddd;">40</td>
+            <td style="text-align:center; border: 1px solid #ddd;">20</td>
+            <td style="text-align:center; border: 1px solid #ddd;">~0.67</td>
+            <td style="text-align:center; border: 1px solid #ddd;">Semiconductor</td>
         </tr>
     </tbody>
 </table>
