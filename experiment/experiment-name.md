@@ -1,1 +1,1 @@
-## Kronig-Penney model and formation of energy bands
+## Kronig-Penney Model and Formation of Energy Bands

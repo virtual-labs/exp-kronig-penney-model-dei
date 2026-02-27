@@ -15,6 +15,9 @@
 
 5. Callaway, J. (1999). *Solid State Physics* (2nd ed.). Academic Press.  
    (Detailed treatment of periodic delta-function limit)
+   
+6. Ghatak, A. K., & Lokanathan, S. (2004). *Quantum Mechanics: Theory and Applications* (5th ed.). Macmillan Publishers India Limited.</br>
+   (Chapter 16: The double-well potential and the Kronig–Penney model)
 
 ---
 
