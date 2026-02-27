@@ -1,0 +1,145 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. The Kronig-Penney model explains the existence of what in solids?",
+            "answers": {
+                "a": "Gravitational forces",
+                "b": "Energy bands and band gaps",
+                "c": "Nuclear fission",
+                "d": "Fluid dynamics"
+            },
+            "explanations": {
+                "b": "The Kronig-Penney model is a fundamental concept in solid-state physics that explains how periodic potentials in crystals lead to the formation of energy bands and band gaps."
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. In the Kronig-Penney model, the potential V(x) is assumed to be:",
+            "answers": {
+                "a": "Constant everywhere",
+                "b": "Zero everywhere",
+                "c": "Periodic with lattice spacing",
+                "d": "Random and unpredictable"
+            },
+            "explanations": {
+                "c": "The Kronig-Penney model uses a periodic potential V(x) = V(x+a), where 'a' is the lattice constant, representing the regular arrangement of atoms in a crystal."
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "3. Which theorem states that the wavefunction in a periodic potential is a plane wave modulated by a periodic function?",
+            "answers": {
+                "a": "Euler's Theorem",
+                "b": "Bloch's Theorem",
+                "c": "Pythagoras Theorem",
+                "d": "Heisenberg's Uncertainty Principle"
+            },
+            "explanations": {
+                "b": "Bloch's Theorem states that ψ_k(x) = e^(ikx) · u_k(x), where u_k(x) is a periodic function. This is fundamental to understanding electron behavior in crystals."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "4. What distinguishes a semiconductor from an insulator in terms of band gap?",
+            "answers": {
+                "a": "Semiconductors have a smaller band gap (~1 eV)",
+                "b": "Semiconductors have a larger band gap",
+                "c": "Semiconductors have no band gap",
+                "d": "They are exactly the same"
+            },
+            "explanations": {
+                "a": "Semiconductors typically have band gaps around 1 eV (e.g., Silicon ~1.1 eV), while insulators have much larger band gaps (>3 eV), making electron excitation much more difficult."
+            },
+            "correctAnswer": "a",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "5. In conductors, what is the characteristic of energy bands?",
+            "answers": {
+                "a": "Wide band gaps separate all bands",
+                "b": "Energy bands overlap or have zero/very small gaps",
+                "c": "All energy bands are forbidden",
+                "d": "Energy bands are discrete and isolated"
+            },
+            "explanations": {
+                "b": "Conductors have overlapping energy bands or zero/very small band gaps, allowing electrons to move freely and conduct electricity easily."
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "6. The Schrödinger equation for the Kronig-Penney model is:",
+            "answers": {
+                "a": "F = ma",
+                "b": "-ℏ²/2m · d²ψ/dx² + V(x)ψ = Eψ",
+                "c": "E = mc²",
+                "d": "PV = nRT"
+            },
+            "explanations": {
+                "b": "This is the time-independent Schrödinger equation that describes the behavior of electrons in the periodic potential of the Kronig-Penney model."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "7. What happens to energy levels when the potential barrier strength (P) tends to infinity?",
+            "answers": {
+                "a": "Energy levels become continuous",
+                "b": "Energy levels become discrete (like a particle in a box)",
+                "c": "Energy levels become zero",
+                "d": "Energy levels become undefined"
+            },
+            "explanations": {
+                "b": "When P → ∞, the barriers become impenetrable, and the system behaves like isolated potential wells, resulting in discrete energy levels similar to a particle in a box."
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "8. The condition for allowed energy states in the Kronig-Penney model is:",
+            "answers": {
+                "a": "cos(ka) must be greater than 1",
+                "b": "cos(ka) must be between -1 and +1",
+                "c": "cos(ka) must be less than -1",
+                "d": "cos(ka) must equal zero"
+            },
+            "explanations": {
+                "b": "For allowed energy bands, the dispersion relation cos(ka) = cos(αa) + P·sin(αa)/(αa) must yield values between -1 and +1. Values outside this range correspond to forbidden band gaps."
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "9. What does the parameter 'a' represent in the Kronig-Penney model?",
+            "answers": {
+                "a": "Height of the potential barrier",
+                "b": "Width of the potential barrier",
+                "c": "Width of the potential well (lattice spacing)",
+                "d": "Energy of the electron"
+            },
+            "explanations": {
+                "c": "The parameter 'a' represents the well width or lattice spacing - the width of the region where the potential is zero between barriers."
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "10. How does increasing the potential depth (V₀) affect the band gap?",
+            "answers": {
+                "a": "Band gap decreases",
+                "b": "Band gap increases",
+                "c": "Band gap remains unchanged",
+                "d": "Band gap becomes negative"
+            },
+            "explanations": {
+                "b": "Increasing the potential depth V₀ makes the barriers stronger, which leads to wider band gaps. This is why insulators (with strong atomic potentials) have large band gaps."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        }
+    ]
+}
